@@ -1,0 +1,85 @@
+
+
+.contact-page{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+grid-gap: 25px;
+  
+}
+
+
+
+.input {
+  margin: 2.2rem auto;
+  padding: 1rem;
+  width: 90%;
+  max-width: 29rem;
+}
+
+ label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+ input {
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 0.15rem;
+  margin-bottom: 0.5rem;
+}
+
+.input input:focus {
+  outline: none;
+  
+}
+
+
+button {
+  margin: 20px 0 0 auto;
+  background: white;
+  color: black;
+  padding: 0.25rem 1rem;
+cursor: pointer;
+}
+
+button:hover,
+button:active {
+ background-color: grey;
+}
+
+button:focus {
+  outline: none;
+}
+
+textarea:focus{
+  border: none;
+  outline: none;
+}
+   
+textarea {
+  padding: 0.5rem;
+}
+
+@media (max-width: 950px) {
+  
+.contact-page{
+  display: grid;
+  grid-template-columns: 1fr ;
+grid-gap: 25px;
+  
+}
+
+.input {
+  margin: 0;
+  padding: 0;
+  width: 80%;
+  
+}
+textarea {
+  width: 100%;
+}
+
+
+}

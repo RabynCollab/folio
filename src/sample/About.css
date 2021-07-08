@@ -1,0 +1,42 @@
+
+.about{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  margin: 15px 0;
+}
+img{
+  width: 350px;  
+}
+.img-gallery{
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+
+}
+
+.bid{
+  display: grid;
+}
+
+.bids{
+  display: grid;
+ 
+}
+
+
+
+.pic{
+  width: 200px;
+
+}
+
+
+@media (max-width: 560px) {
+
+img{
+  width: 135% ;
+}
+
+
+}
